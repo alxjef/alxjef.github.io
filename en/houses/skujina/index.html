@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Skujiņa — Locu Sala</title>
+<meta name="description" content="A bright family house: an open living room with a kitchen, two bedrooms and a bathroom. A big covered terrace with a long table, a gazebo and an outdoor hot tub.">
+<meta property="og:title" content="Skujiņa — Locu Sala"><meta property="og:description" content="A house for families with kids"><meta property="og:image" content="../../../img/h/skujina-01.webp">
+<link rel="alternate" hreflang="ru" href="../../../houses/skujina/index.html"><link rel="alternate" hreflang="lv" href="../../../lv/houses/skujina/index.html"><link rel="alternate" hreflang="en" href="../../../en/houses/skujina/index.html">
+<link rel="preload" as="image" href="../../../img/h/skujina-01.webp">
+<link rel="stylesheet" href="../../../fonts/fonts.css">
+<script>document.documentElement.classList.add("js")</script>
+<style>
+:root{--g:16px;--green:#1a3d1f;--ink:#282828;--mute:#5c5c58;--bg:#f7f9f4;--soft:#eef2ec;--line:#d8dbd4;--r:16px}
+@media(min-width:810px){:root{--g:24px}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 "Inter",system-ui,sans-serif}
+a{color:inherit}
+img{display:block;max-width:100%}
+h1,h2,h3{font-family:"Inter Display","Inter",sans-serif;font-weight:500;letter-spacing:-.035em;margin:0;line-height:1.02}
+.wrap{max-width:1330px;margin:0 auto;padding:0 var(--g)}
+/* header */
+.hd{position:fixed;z-index:50;top:0;left:0;right:0;padding:var(--g) var(--g) 0;display:flex;justify-content:space-between;align-items:center;gap:8px;pointer-events:none}
+.hd>*{pointer-events:auto}
+.pill{height:42px;display:inline-flex;align-items:center;gap:8px;padding:0 16px;border-radius:10px;text-decoration:none;font:500 15px/1 "Inter Display","Inter",sans-serif;letter-spacing:-.01em;transition:background .3s,color .3s,box-shadow .3s}
+.hd .logo{font:500 22px/1 "Cabinet Grotesk","Inter Display",sans-serif;letter-spacing:-.02em;color:#fff}
+.hd .back{color:#fff}
+.hd-r{display:flex;gap:8px;align-items:center}
+.lang{display:flex;height:42px;align-items:center;padding:0 5px;border-radius:10px;gap:2px;transition:background .3s}
+.lang a{font:500 13px/1 "Inter",sans-serif;text-decoration:none;color:#fff;padding:8px 8px;border-radius:7px;opacity:.75}
+.lang a.on{opacity:1;background:rgba(255,255,255,.18)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:46px;padding:0 20px;border-radius:10px;border:0;background:var(--green);color:#fff;text-decoration:none;font:500 15px/1 "Inter",sans-serif;cursor:pointer;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-1px);background:#14321a}
+.btn.light{background:#fff;color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+.hd .btn{height:42px;padding:0 16px}
+.scrolled .hd .logo,.scrolled .hd .back{background:rgba(255,255,255,.92);color:var(--ink);box-shadow:0 2px 14px rgba(0,0,0,.06);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.scrolled .lang{background:rgba(255,255,255,.92);box-shadow:0 2px 14px rgba(0,0,0,.06)}
+.scrolled .lang a{color:var(--ink)}
+.scrolled .lang a.on{background:var(--soft)}
+.hd-l{display:flex;gap:8px}
+@media(max-width:809.98px){.hd .back span,.hd .btn.b-top{display:none}.hd .back{width:42px;padding:0;justify-content:center}}
+/* hero */
+.hero{padding:var(--g) var(--g) 0}
+.hero-in{position:relative;border-radius:var(--r);overflow:hidden;height:min(86svh,880px);min-height:520px;background:#223}
+.hero-in img{width:100%;height:100%;object-fit:cover;transform:scale(1.04);transition:transform 1.6s cubic-bezier(.22,1,.36,1)}
+.ready .hero-in img{transform:none}
+.hero-in:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.38) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0) 45%,rgba(0,0,0,.62) 100%)}
+.hero-tx{position:absolute;z-index:1;left:0;right:0;bottom:0;padding:clamp(16px,3vw,40px);color:#fff;display:flex;flex-direction:column;gap:14px}
+.eyebrow{font:500 14px/1.2 "Inter",sans-serif;opacity:.9;letter-spacing:.01em}
+.hero h1{font-size:clamp(56px,10vw,150px);line-height:.92}
+.hero .tag{font-size:clamp(17px,1.6vw,21px);max-width:34ch;opacity:.92;margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.chip{display:inline-flex;align-items:center;gap:8px;height:38px;padding:0 14px;border-radius:10px;background:rgba(0,0,0,.28);box-shadow:inset 0 0 0 1px rgba(255,255,255,.18);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);font-size:14px;white-space:nowrap}
+.hero-cnt{position:absolute;z-index:1;right:clamp(16px,3vw,40px);bottom:clamp(16px,3vw,40px);display:none}
+@media(min-width:810px){.hero-tx{padding-right:300px}.hero-cnt{display:inline-flex}}
+@media(max-width:809.98px){.hero-in{height:74svh;min-height:500px}}
+/* sections */
+section{padding:clamp(56px,8vw,112px) 0 0}
+.lbl{display:inline-flex;align-items:center;gap:8px;font:500 14px/1 "Inter",sans-serif;color:var(--mute);margin-bottom:18px}
+.lbl:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--green)}
+h2{font-size:clamp(36px,5vw,64px)}
+.about{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(32px,5vw,80px);align-items:start}
+.about p{font-size:clamp(17px,1.5vw,20px);line-height:1.55;margin:22px 0 0;max-width:56ch;color:#3a3a38}
+.card{position:sticky;top:84px;background:#fff;border-radius:var(--r);padding:clamp(20px,2.4vw,28px);box-shadow:0 1px 0 var(--line),0 12px 40px rgba(26,61,31,.06)}
+.price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.price b{font:500 clamp(40px,4vw,52px)/1 "Inter Display",sans-serif;letter-spacing:-.04em}
+.price span{color:var(--mute);font-size:15px}
+.price-l{color:var(--mute);font-size:14px;margin-bottom:8px}
+.specs{list-style:none;padding:0;margin:20px 0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.specs li{background:var(--bg);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.specs li i{color:var(--green);display:flex}
+.specs small{color:var(--mute);font-size:13px}
+.specs b{font:500 17px/1.2 "Inter Display",sans-serif;letter-spacing:-.01em}
+.card .btn{width:100%}
+.card .btn+.btn{margin-top:8px}
+/* gallery */
+.gal-h{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap}
+.gal-h .n{color:var(--mute)}
+.gal{margin-top:28px;display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:clamp(150px,17vw,250px);grid-auto-flow:dense;gap:8px}
+.gal button{all:unset;cursor:zoom-in;position:relative;border-radius:12px;overflow:hidden;background:var(--soft)}
+.gal button:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.22,1,.36,1)}
+.gal button:hover img{transform:scale(1.04)}
+.gal .w{grid-column:span 2;grid-row:span 2}
+.gal .t{grid-row:span 2}
+@media(max-width:809.98px){.gal{grid-template-columns:1fr 1fr;grid-auto-rows:42vw}.gal .w{grid-row:span 1;grid-auto-rows:auto}.gal .w img{aspect-ratio:auto}.gal .t{grid-row:span 1}.about{grid-template-columns:1fr}.card{position:static}}
+/* amenities & good to know */
+.am{margin-top:28px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+@media(max-width:809.98px){.am{grid-template-columns:1fr}}
+.am div{display:flex;align-items:center;gap:14px;background:#fff;border-radius:12px;padding:14px 16px;font-size:16px;box-shadow:0 1px 0 var(--line)}
+.am i,.kn i{flex:none;width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--green);color:#fff}
+.kn{margin-top:28px;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:8px}
+.kn div{background:var(--soft);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:12px}
+.kn b{font:500 18px/1.2 "Inter Display",sans-serif;letter-spacing:-.01em}
+.kn p{margin:0;color:var(--mute);font-size:15px;line-height:1.45}
+@media(max-width:809.98px){.kn div{display:grid;grid-template-columns:40px 1fr;column-gap:14px;row-gap:4px;padding:16px}.kn i{grid-row:span 2}.kn b{align-self:end}}
+/* others */
+.oth{margin-top:28px;display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.oth a{text-decoration:none;display:flex;flex-direction:column;gap:12px}
+.oth .im{border-radius:12px;overflow:hidden;aspect-ratio:4/5;background:var(--soft)}
+.oth img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.22,1,.36,1)}
+.oth a:hover img{transform:scale(1.04)}
+.oth h3{font-size:24px}
+.oth small{color:var(--mute);font-size:14px}
+@media(max-width:809.98px){.oth{grid-template-columns:repeat(4,72%);overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--g);margin-left:calc(var(--g)*-1);margin-right:calc(var(--g)*-1);padding:0 var(--g);scrollbar-width:none}.oth::-webkit-scrollbar{display:none}.oth a{scroll-snap-align:start}}
+/* footer */
+.ft{margin:clamp(56px,8vw,112px) var(--g) var(--g);border-radius:var(--r);background:var(--green);color:#fff;padding:clamp(28px,5vw,64px)}
+.ft-in{max-width:1282px;margin:0 auto;display:flex;justify-content:space-between;gap:32px;flex-wrap:wrap;align-items:end}
+.ft h2{font-size:clamp(40px,6vw,88px);color:#fff}
+.ft p{margin:14px 0 0;opacity:.75;max-width:44ch}
+.ft-b{display:flex;gap:8px;flex-wrap:wrap}
+.ft .btn{background:#fff;color:var(--green)}
+.ft .btn.ghost{background:transparent;color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.35)}
+.ft-bot{max-width:1282px;margin:clamp(32px,4vw,56px) auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.15);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:14px;opacity:.7}
+.ft-bot a{text-decoration:none}
+/* reveal */
+html.js [data-a]{opacity:0;transform:translate3d(0,22px,0);transition:opacity .9s cubic-bezier(.44,0,.56,1),transform 1s cubic-bezier(.22,1,.36,1)}
+html.js [data-a].in{opacity:1;transform:none}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(10,14,10,.94);display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .3s}
+.lb.on{opacity:1}
+.lb[hidden]{display:none}
+.lb img{max-width:calc(100vw - 32px);max-height:calc(100svh - 120px);border-radius:10px;object-fit:contain;user-select:none}
+.lb button{position:absolute;width:46px;height:46px;border-radius:10px;border:0;background:rgba(255,255,255,.12);color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.lb button:hover{background:rgba(255,255,255,.22)}
+.lb .x{top:16px;right:16px}.lb .pv{left:16px;top:50%;margin-top:-23px}.lb .nx{right:16px;top:50%;margin-top:-23px}
+.lb .nx svg{transform:scaleX(-1)}
+.lb .c{position:absolute;bottom:20px;left:0;right:0;text-align:center;color:#fff;opacity:.7;font-size:14px}
+@media(max-width:809.98px){.lb .pv,.lb .nx{top:auto;bottom:10px;margin:0}.lb .c{bottom:24px}}
+html.lock{overflow:hidden}
+.bar{display:none}
+@media(max-width:809.98px){.bar{display:flex;position:fixed;z-index:40;left:var(--g);right:var(--g);bottom:calc(var(--g) + env(safe-area-inset-bottom));align-items:center;justify-content:space-between;gap:12px;padding:8px 8px 8px 16px;border-radius:12px;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 8px 30px rgba(0,0,0,.12);transform:translateY(140%);transition:transform .45s cubic-bezier(.22,1,.36,1)}
+.scrolled .bar{transform:none}.bar b{font:500 20px/1 "Inter Display",sans-serif;letter-spacing:-.02em}.bar small{color:var(--mute);font-size:13px;margin-left:4px}.bar .btn{height:42px}
+.ft{margin-bottom:calc(var(--g) + 74px)}}
+</style>
+</head>
+<body>
+<header class="hd">
+ <div class="hd-l"><a class="pill logo" href="../../../en/index.html">Locu Sala</a><a class="pill back" href="../../../en/index.html#houses" aria-label="All houses"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg><span>All houses</span></a></div>
+ <div class="hd-r"><nav class="lang" aria-label="Language"><a href="../../../houses/skujina/index.html" hreflang="ru" lang="ru">RU</a><a href="../../../lv/houses/skujina/index.html" hreflang="lv" lang="lv">LV</a><a href="../../../en/houses/skujina/index.html" hreflang="en" lang="en" class=on aria-current=true>EN</a></nav><a class="btn b-top" href="https://www.locusala.lv/booking-engine" target="_blank" rel="noopener">Book now</a></div>
+</header>
+<main>
+<div class="hero"><div class="hero-in">
+ <img src="../../../img/h/skujina-01.webp" alt="Skujiņa" fetchpriority="high">
+ <div class="hero-tx"><span class="eyebrow">Lakeside house · Locu Sala</span><h1>Skujiņa</h1><p class="tag">A house for families with kids</p><div class="chips"><span class="chip"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 19v-1.5a3.5 3.5 0 0 0-3.5-3.5h-5A3.5 3.5 0 0 0 4 17.5V19"/><circle cx="10" cy="7.5" r="3.5"/><path d="M20 19v-1.5a3.5 3.5 0 0 0-2.5-3.35M15.5 4.2a3.5 3.5 0 0 1 0 6.6"/></svg>up to 6 guests</span><span class="chip"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18V6M3 14h18v4M21 14v-2.5A2.5 2.5 0 0 0 18.5 9H11v5"/><circle cx="7" cy="11" r="1.8"/></svg>2 bedrooms</span><span class="chip"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16v2.5A4.5 4.5 0 0 1 15.5 19h-7A4.5 4.5 0 0 1 4 14.5V12zM6 12V6a2 2 0 0 1 3.6-1.2M7 19l-1 2M17 19l1 2"/></svg>1 bathroom</span><span class="chip"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>50 m²</span></div></div>
+ <a class="btn light hero-cnt" href="#photos">7 photos</a>
+</div></div>
+<div class="wrap">
+<section class="about">
+ <div data-a><span class="lbl">About the house</span><h2>A house for families with kids</h2><p>A bright family house: an open living room with a kitchen, two bedrooms and a bathroom. A big covered terrace with a long table, a gazebo and an outdoor hot tub.</p><p>Kids will love the farm animals and the treehouse nearby.</p></div>
+ <aside class="card" data-a>
+  <div class="price-l">Price</div><div class="price"><b>250</b><span>€ / 2 nights</span></div>
+  <ul class="specs"><li><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></i><small>Area</small><b>50 m²</b></li><li><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 19v-1.5a3.5 3.5 0 0 0-3.5-3.5h-5A3.5 3.5 0 0 0 4 17.5V19"/><circle cx="10" cy="7.5" r="3.5"/><path d="M20 19v-1.5a3.5 3.5 0 0 0-2.5-3.35M15.5 4.2a3.5 3.5 0 0 1 0 6.6"/></svg></i><small>Guests</small><b>up to 6 guests</b></li><li><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18V6M3 14h18v4M21 14v-2.5A2.5 2.5 0 0 0 18.5 9H11v5"/><circle cx="7" cy="11" r="1.8"/></svg></i><small>Bedrooms</small><b>2 bedrooms</b></li><li><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16v2.5A4.5 4.5 0 0 1 15.5 19h-7A4.5 4.5 0 0 1 4 14.5V12zM6 12V6a2 2 0 0 1 3.6-1.2M7 19l-1 2M17 19l1 2"/></svg></i><small>Bathrooms</small><b>1 bathroom</b></li></ul>
+  <a class="btn" href="https://www.locusala.lv/booking-engine" target="_blank" rel="noopener">Book now</a>
+  <a class="btn light" href="https://wa.me/37129430566?text=Hello!%20I%20would%20like%20to%20check%20available%20dates%20for%20the%20Skujiņa%20house." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.2-3.6A8 8 0 1 1 8 19.2z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 .8a4 4 0 0 1-1.8-1.8l.8-1-1-2z"/></svg>Message on WhatsApp</a>
+ </aside>
+</section>
+<section id="photos">
+ <div class="gal-h" data-a><div><span class="lbl">Photos</span><h2>Skujiņa</h2></div><span class="n">7 photos</span></div>
+ <div class="gal"><button type="button" class="w" data-full="../../../img/h/skujina-01.webp" aria-label="Skujiņa — 1/7"><img src="../../../img/h/skujina-01-s.webp" alt="Skujiņa — 1" decoding="async"></button><button type="button" class="" data-full="../../../img/h/skujina-02.webp" aria-label="Skujiņa — 2/7"><img src="../../../img/h/skujina-02-s.webp" alt="Skujiņa — 2" decoding="async"></button><button type="button" class="" data-full="../../../img/h/skujina-03.webp" aria-label="Skujiņa — 3/7"><img src="../../../img/h/skujina-03-s.webp" alt="Skujiņa — 3" decoding="async"></button><button type="button" class="t" data-full="../../../img/h/skujina-04.webp" aria-label="Skujiņa — 4/7"><img src="../../../img/h/skujina-04-s.webp" alt="Skujiņa — 4" decoding="async"></button><button type="button" class="t" data-full="../../../img/h/skujina-05.webp" aria-label="Skujiņa — 5/7"><img src="../../../img/h/skujina-05-s.webp" alt="Skujiņa — 5" decoding="async"></button><button type="button" class="t" data-full="../../../img/h/skujina-06.webp" aria-label="Skujiņa — 6/7"><img src="../../../img/h/skujina-06-s.webp" alt="Skujiņa — 6" decoding="async"></button><button type="button" class="t" data-full="../../../img/h/skujina-07.webp" aria-label="Skujiņa — 7/7"><img src="../../../img/h/skujina-07-s.webp" alt="Skujiņa — 7" loading=lazy decoding="async"></button></div>
+</section>
+<section><div data-a><span class="lbl">In the house</span></div><div class="am"><div data-a><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10l9-6 9 6M5 10v10M19 10v10M3 20h18M9 20v-5h6v5"/></svg></i>Covered terrace</div><div data-a><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="9" rx="8" ry="3"/><path d="M4 9v7c0 1.7 3.6 3 8 3s8-1.3 8-3V9M9 4c0-1 1-1 1-2M14 4c0-1 1-1 1-2"/></svg></i>Outdoor hot tub</div><div data-a><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10l9-6 9 6M5 10v10M19 10v10M3 20h18M9 20v-5h6v5"/></svg></i>Gazebo</div><div data-a><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 10h16M8 6.5h1M8 14v3"/></svg></i>Kitchen</div><div data-a><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h16a8 8 0 0 1-16 0zM8 17l-2 4M16 17l2 4M12 17v4M9 5c0-1 1-1 1-2M13 5c0-1 1-1 1-2"/></svg></i>Grill</div><div data-a><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-4M12 3l6 9h-3l4 5H5l4-5H6z"/></svg></i>Farm and treehouse nearby</div></div></section>
+<section><div data-a><span class="lbl">Good to know</span></div><div class="kn"><div data-a><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3"/></svg></i><b>Check-in</b><p>Self check-in — access details are sent in advance.</p></div><div data-a><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></i><b>Water</b><p>Tap water should be boiled before drinking.</p></div><div data-a><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h4"/></svg></i><b>Payment</b><p>50% prepayment by invoice, the rest in cash on arrival.</p></div><div data-a><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg></i><b>Cancellation</b><p>Bookings are non-refundable, so please choose your dates carefully.</p></div><div data-a><i><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7" cy="9" r="1.8"/><circle cx="12" cy="6.5" r="1.8"/><circle cx="17" cy="9" r="1.8"/><path d="M12 12c-3 0-5.5 3.5-5 6 .4 1.8 2.6 1.5 5 1.5s4.6.3 5-1.5c.5-2.5-2-6-5-6z"/></svg></i><b>Pets</b><p>Pets are welcome — €150 deposit.</p></div></div></section>
+<section><div data-a><span class="lbl">Other houses</span></div><div class="oth"><a href="../../../en/houses/jumis/index.html" data-a><div class="im"><img src="../../../img/h/jumis-01-s.webp" alt="Jumis" loading="lazy"></div><div><h3>Jumis</h3><small>up to 14 guests · 120 m²</small></div></a><a href="../../../en/houses/krupitis/index.html" data-a><div class="im"><img src="../../../img/h/krupitis-01-s.webp" alt="Krupītis" loading="lazy"></div><div><h3>Krupītis</h3><small>up to 6 guests · 50 m²</small></div></a><a href="../../../en/houses/maras-krusts/index.html" data-a><div class="im"><img src="../../../img/h/maras-krusts-01-s.webp" alt="Māras Krusts" loading="lazy"></div><div><h3>Māras Krusts</h3><small>up to 12 guests · 100 m²</small></div></a><a href="../../../en/houses/usina/index.html" data-a><div class="im"><img src="../../../img/h/usina-01-s.webp" alt="Ūsiņa" loading="lazy"></div><div><h3>Ūsiņa</h3><small>up to 4 guests · 35 m²</small></div></a></div></section>
+</div>
+</main>
+<footer class="ft"><div class="ft-in"><div><h2>Locu Sala</h2><p>Five houses by a clear lake in Čārmaņi Nature Park. Latgale, Aglona region.</p></div>
+ <div class="ft-b"><a class="btn" href="https://www.locusala.lv/booking-engine" target="_blank" rel="noopener">Book now</a><a class="btn ghost" href="https://wa.me/37129430566?text=Hello!%20I%20would%20like%20to%20check%20available%20dates%20for%20the%20Skujiņa%20house." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.2-3.6A8 8 0 1 1 8 19.2z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 .8a4 4 0 0 1-1.8-1.8l.8-1-1-2z"/></svg>WhatsApp</a></div></div>
+ <div class="ft-bot"><a href="../../../en/index.html">Home</a><a href="tel:+37129430566">+371 29 430 566</a><span>© Locu Sala</span></div>
+</footer>
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Photos"><img alt=""><button class="x" type="button" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button><button class="pv" type="button" aria-label="Previous"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button><button class="nx" type="button" aria-label="Next"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button><div class="c"></div></div>
+<div class="bar"><div><b>250 €</b><small>/ 2 nights</small></div><a class="btn" href="https://www.locusala.lv/booking-engine" target="_blank" rel="noopener">Book now</a></div>
+<script>
+(function(){
+var d=document,h=d.documentElement;
+function sc(){h.classList.toggle('scrolled',scrollY>40)}sc();addEventListener('scroll',sc,{passive:true});
+requestAnimationFrame(function(){h.classList.add('ready')});
+var els=d.querySelectorAll('[data-a]');
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+els.forEach(function(e){io.observe(e)});}else els.forEach(function(e){e.classList.add('in')});
+setTimeout(function(){els.forEach(function(e){if(e.getBoundingClientRect().top<innerHeight)e.classList.add('in')})},1500);
+var lb=d.getElementById('lb'),im=lb.querySelector('img'),ct=lb.querySelector('.c'),list=[].slice.call(d.querySelectorAll('[data-full]')),i=0,last;
+function show(k){i=(k+list.length)%list.length;im.src=list[i].getAttribute('data-full');im.alt=list[i].querySelector('img').alt;ct.textContent=(i+1)+' / '+list.length}
+function open(k){last=d.activeElement;show(k);lb.hidden=false;h.classList.add('lock');requestAnimationFrame(function(){lb.classList.add('on')});lb.querySelector('.x').focus()}
+function close(){lb.classList.remove('on');h.classList.remove('lock');setTimeout(function(){lb.hidden=true},250);last&&last.focus()}
+list.forEach(function(b,k){b.addEventListener('click',function(){open(k)})});
+lb.querySelector('.x').onclick=close;lb.querySelector('.pv').onclick=function(){show(i-1)};lb.querySelector('.nx').onclick=function(){show(i+1)};
+lb.addEventListener('click',function(e){if(e.target===lb)close()});
+d.addEventListener('keydown',function(e){if(lb.hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(i-1);if(e.key==='ArrowRight')show(i+1)});
+var sx=null;lb.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+lb.addEventListener('touchend',function(e){if(sx===null)return;var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>40)show(i+(dx<0?1:-1));sx=null});
+})();
+</script>
+</body>
+</html>
